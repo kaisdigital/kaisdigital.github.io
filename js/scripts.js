@@ -57,7 +57,7 @@ $(document).ready(function () {
       targetOffset = $(id).offset().top;
 
     $('html, body').animate({
-      scrollTop: targetOffset
+      scrollTop: targetOffset - 100
     }, 500);
   });
 });
